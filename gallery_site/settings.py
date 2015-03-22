@@ -91,7 +91,8 @@ ADMIN_MEDIA_PREFIX = ROOT_URL + 'admin/'
 
 
 STATIC_URL = ROOT_URL + 'static/'
-STATIC_ROOT = '/home/workspace/gallery_site/gallery/templates/'
+STATIC_ROOT = BASE_DIR + '/gallery/templates/'
+
 
 MEDIA_ROOT =  '/var/www/gallery/media/'
 MEDIA_URL= ROOT_URL + 'media/'
