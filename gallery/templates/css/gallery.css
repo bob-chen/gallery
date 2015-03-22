@@ -1,0 +1,49 @@
+
+.item {  
+	display: inline;
+	float: left; 
+	padding: 10px;
+	width: 32%;
+	border: #ccc 1px solid;
+	margin-bottom: 10px;
+}
+.item h2 {
+	margin-top: 5px;
+}
+.item-content {
+	clear: both;
+	display: block;
+}
+.item-content > a {
+	text-decoration: none;
+	outline: none;
+}
+.item-content img {
+	width: 100%;
+}
+.item .item-text {
+	margin-top: 5px;
+}
+.progress {
+	margin: 10px 0 10px 0;
+}
+
+.err {
+	color: red;
+	text-align: center;
+}
+
+
+/*
+ * nav css
+ */
+.photo-nav {
+	top: 80px;
+}
+.add-btn, .back-top-btn {
+	display: block;
+	cursor: pointer;
+}
+
+
+
